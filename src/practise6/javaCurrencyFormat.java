@@ -15,6 +15,7 @@ public class javaCurrencyFormat {
         NumberFormat numberFormatFrance = NumberFormat.getCurrencyInstance(Locale.FRANCE);
         Locale indianCurrency = new Locale("en", "IN");
         NumberFormat numberFormatIndia = NumberFormat.getCurrencyInstance(indianCurrency);
+
         System.out.println("US: " + numberFormatUS.format(payment));
         System.out.println("India: " + numberFormatIndia.format(payment));
         System.out.println("China: " + numberFormatChina.format(payment));
