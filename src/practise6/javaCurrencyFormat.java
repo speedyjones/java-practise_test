@@ -10,8 +10,6 @@ public class javaCurrencyFormat {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double payment = scanner.nextDouble();
-
-
         NumberFormat numberFormatChina = NumberFormat.getCurrencyInstance(Locale.CHINA);
         NumberFormat numberFormatUS = NumberFormat.getCurrencyInstance(Locale.US);
         NumberFormat numberFormatFrance = NumberFormat.getCurrencyInstance(Locale.FRANCE);
